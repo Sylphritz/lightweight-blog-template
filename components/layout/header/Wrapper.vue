@@ -1,9 +1,7 @@
 <template>
-  <div class="px-4 md:px-6">
+  <header class="px-4 md:px-6">
     <slot />
-  </div>
+  </header>
 </template>
 
 <script lang="ts" setup></script>
-
-<style></style>
