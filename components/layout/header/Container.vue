@@ -1,7 +1,9 @@
 <template>
   <LayoutHeaderWrapper>
-    <header>HEADER</header>
+    <header>HEADER <Icon icon="mdi:account-box" /></header>
   </LayoutHeaderWrapper>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { Icon } from '@iconify/vue'
+</script>

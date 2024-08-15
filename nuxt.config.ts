@@ -2,7 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/seo', '@nuxtjs/google-fonts'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/seo',
+    '@nuxtjs/google-fonts',
+    '@pinia/nuxt',
+  ],
   site: {
     url: process.env.SITE_URL,
     name: process.env.SITE_NAME || 'Blazing Fast Static Blog Template',

@@ -1,5 +1,6 @@
 <template>
   <NuxtLayout>
+    <ThemeModeToggle />
     <h1>Some Heading</h1>
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
