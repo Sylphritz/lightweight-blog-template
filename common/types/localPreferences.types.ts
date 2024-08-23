@@ -1,3 +1,1 @@
-export interface LocalPreferences {
-  themeMode?: string
-}
+export interface LocalPreferences {}

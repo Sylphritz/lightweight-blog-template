@@ -11,15 +11,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/icon": "^1.4.8",
+    "@nuxtjs/color-mode": "^3.4.4",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/seo": "2.0.0-rc.18",
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "@pinia/nuxt": "^0.5.3",
     "nuxt": "^3.12.4",
     "vue": "latest"
   },
   "devDependencies": {
-    "@iconify/vue": "^4.1.2",
+    "@iconify-json/mdi": "^1.1.68",
     "sass-embedded": "^1.77.8"
   }
 }

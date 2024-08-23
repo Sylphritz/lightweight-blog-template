@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/seo',
     '@nuxtjs/google-fonts',
-    '@pinia/nuxt',
+    '@nuxtjs/color-mode',
+    '@nuxt/icon',
   ],
   site: {
     url: process.env.SITE_URL,
@@ -25,5 +26,14 @@ export default defineNuxtConfig({
       Roboto: true,
     },
     preload: true,
+  },
+  ogImage: {
+    enabled: false,
+  },
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
+    classSuffix: '',
+    storageKey: 'userColorMode',
   },
 })

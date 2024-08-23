@@ -1,5 +1,7 @@
 <template>
-  <NuxtPage />
+  <LayoutWrapperSite>
+    <NuxtPage />
+  </LayoutWrapperSite>
 </template>
 
 <script setup lang="ts">

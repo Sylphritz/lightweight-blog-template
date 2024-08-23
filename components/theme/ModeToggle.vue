@@ -1,19 +1,22 @@
 <template>
-  <button class="inline-block" @click.prevent="toggleMode">
-    <Icon :icon="modeIcon" />
-  </button>
+  <ColorScheme>
+    <button class="inline-block" @click="toggleColorMode">
+      <Icon :name="modeIcon" mode="svg" />
+    </button>
+  </ColorScheme>
 </template>
 
 <script lang="ts" setup>
-import { Icon } from '@iconify/vue'
-import { ThemeMode } from '~/stores/types/darkMode.types'
+import { ColorMode } from '~/common/constants/colorMode'
 
-const darkModeStore = useDarkModeStore()
-const { toggleMode } = darkModeStore
-const { mode } = storeToRefs(darkModeStore)
+const colorMode = useColorMode()
+
+const toggleColorMode = () =>
+  (colorMode.preference =
+    colorMode.preference === ColorMode.DARK ? ColorMode.LIGHT : ColorMode.DARK)
 
 const modeIcon = computed(() =>
-  mode.value === ThemeMode.DARK
+  colorMode.preference === ColorMode.DARK
     ? 'mdi:moon-waning-crescent'
     : 'mdi:white-balance-sunny'
 )
