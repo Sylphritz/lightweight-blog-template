@@ -13,10 +13,10 @@ const colorMode = useColorMode()
 
 const toggleColorMode = () =>
   (colorMode.preference =
-    colorMode.preference === ColorMode.DARK ? ColorMode.LIGHT : ColorMode.DARK)
+    colorMode.value === ColorMode.DARK ? ColorMode.LIGHT : ColorMode.DARK)
 
 const modeIcon = computed(() =>
-  colorMode.preference === ColorMode.DARK
+  colorMode.value === ColorMode.DARK
     ? 'mdi:moon-waning-crescent'
     : 'mdi:white-balance-sunny'
 )
