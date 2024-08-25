@@ -1,3 +1,12 @@
+import type { NuxtConfig } from 'nuxt/schema'
+
+export const googleFonts: NuxtConfig['googleFonts'] = {
+  families: {
+    Roboto: [300, 400, 500, 600],
+  },
+  preload: true,
+}
+
 export default {
   fontFamily: {
     sans: ['Roboto', 'sans-serif'],

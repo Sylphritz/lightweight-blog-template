@@ -1,3 +1,5 @@
+import { googleFonts } from './themes/default'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
@@ -21,12 +23,7 @@ export default defineNuxtConfig({
   schemaOrg: {
     identity: 'Organization',
   },
-  googleFonts: {
-    families: {
-      Roboto: true,
-    },
-    preload: true,
-  },
+  googleFonts: googleFonts,
   ogImage: {
     enabled: false,
   },

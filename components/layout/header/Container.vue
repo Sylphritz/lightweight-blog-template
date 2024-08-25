@@ -1,6 +1,8 @@
 <template>
-  <LayoutHeaderWrapper>
-    <header>HEADER <Icon name="mdi:account-box" /></header>
+  <LayoutHeaderWrapper class="flex">
+    <HeaderLogo class="flex-none" />
+    <div class="flex-1">Middle section</div>
+    <div class="flex-none"><ThemeModeToggle /></div>
   </LayoutHeaderWrapper>
 </template>
 

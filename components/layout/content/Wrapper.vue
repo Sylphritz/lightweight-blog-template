@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="w-full overflow-x-hidden">
     <slot />
   </main>
 </template>
