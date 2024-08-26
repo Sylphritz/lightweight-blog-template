@@ -1,90 +1,97 @@
 * {
   transition: all 50ms;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply font-bold leading-tight;
-}
-
-h1 {
-  @apply my-8 lg:my-10 text-5xl md:text-6xl !leading-snug;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply my-6 lg:my-8 !leading-normal;
-}
-
-h2 {
-  @apply text-4xl md:text-5xl;
-}
-
-h3 {
-  @apply text-3xl md:text-4xl;
-}
-
-h4 {
-  @apply text-2xl;
-}
-
-h5 {
-  @apply text-xl;
-}
-
-h6 {
-  @apply text-xl !font-medium;
-}
-
-p,
-ul,
-ol,
-code,
-blockquote {
-  @apply my-6 text-xl leading-normal tracking-[0.01em] font-light opacity-90;
-
-  strong,
-  b,
-  a {
-    @apply font-bold opacity-100;
+  :focus-visible {
+    @apply outline-primary outline-offset-4;
   }
 }
 
-code {
-  @apply inline-block bg-neutral-100 dark:text-primary-dark px-1 rounded m-0;
-}
+article {
 
-pre {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold leading-tight;
+  }
+
+  h1 {
+    @apply my-8 lg:my-10 text-5xl md:text-6xl !leading-snug;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply my-6 lg:my-8 !leading-normal;
+  }
+
+  h2 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h3 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h4 {
+    @apply text-2xl;
+  }
+
+  h5 {
+    @apply text-xl;
+  }
+
+  h6 {
+    @apply text-xl !font-medium;
+  }
+
+  p,
+  ul,
+  ol,
+  code,
+  blockquote {
+    @apply my-6 text-xl leading-normal tracking-[0.01em] font-light opacity-90;
+
+    strong,
+    b,
+    a {
+      @apply font-bold opacity-100;
+    }
+  }
+
   code {
-    @apply block p-4 overflow-x-auto text-base;
+    @apply inline-block bg-neutral-100 dark:text-primary-dark px-1 rounded m-0;
   }
-}
 
-a {
-  @apply text-primary hover:text-primary-700 visited:text-primary-600 active:text-primary-700 dark:hover:text-primary-400 dark:visited:text-primary-500 dark:active:text-primary-600;
-  @apply underline underline-offset-2;
-}
-
-ul,
-ol {
-  @apply pl-6 md:pl-8;
-
-  li {
-    @apply mb-1;
+  pre {
+    code {
+      @apply block p-4 overflow-x-auto text-base;
+    }
   }
-}
 
-ul {
-  @apply list-disc;
-}
+  a {
+    @apply text-primary hover:text-primary-700 visited:text-primary-600 active:text-primary-700 dark:hover:text-primary-400 dark:visited:text-primary-500 dark:active:text-primary-600;
+    @apply underline underline-offset-2;
+  }
 
-ol {
-  @apply list-decimal;
+  ul,
+  ol {
+    @apply pl-6 md:pl-8;
+
+    li {
+      @apply mb-1;
+    }
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
 }
