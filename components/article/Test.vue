@@ -2,6 +2,8 @@
   <ArticleProse>
     <h1>Article Title Something Something I Think This Should Be Longer</h1>
 
+    <CommonImageBlock src="https://placehold.co/1920x1080" />
+
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
       voluptas molestiae ducimus natus nobis accusamus eligendi ad. In
@@ -16,6 +18,8 @@
       accusamus eligendi ad. In repudiandae quos illo, velit nihil autem
       assumenda saepe, possimus nisi iure maiores.
     </p>
+
+    <CommonImageBlock src="https://placehold.co/1920x1080" />
 
     <h2>Heading 2</h2>
 
@@ -56,6 +60,8 @@
 
     <h2>Why Do We Need It?</h2>
 
+    <CommonImageBlock src="https://placehold.co/1920x1080" />
+
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
       voluptas molestiae ducimus natus nobis accusamus eligendi ad. In
@@ -69,6 +75,8 @@
       repudiandae quos illo, velit nihil autem assumenda saepe, possimus nisi
       iure maiores.
     </p>
+
+    <CommonImageBlock src="https://placehold.co/1920x1080" />
 
     <p>List back to back:</p>
 
@@ -94,6 +102,8 @@
       <li>Item 1</li>
     </ul>
 
+    <CommonImageBlock src="https://placehold.co/720x480" />
+
     <ol>
       <li><strong>Item 1</strong> - Elmo</li>
       <li>Item 2</li>
@@ -105,6 +115,8 @@
       </li>
       <li>Item 1</li>
     </ol>
+
+    <CommonImageBlock src="https://placehold.co/480x360" />
 
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
@@ -121,6 +133,8 @@
     </p>
 
     <h2>Things You Can Try To Avoid This Issue</h2>
+
+    <CommonImageBlock src="https://placehold.co/720x480" />
 
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus

@@ -11,12 +11,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/icon": "^1.4.8",
+    "@nuxt/icon": "^1.5.0",
     "@nuxtjs/color-mode": "^3.4.4",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/seo": "2.0.0-rc.18",
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "nuxt": "^3.12.4",
+    "nuxt": "^3.13.0",
     "vue": "latest"
   },
   "devDependencies": {
