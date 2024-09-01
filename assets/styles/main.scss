@@ -64,6 +64,14 @@ article {
     }
   }
 
+  blockquote {
+    @apply p-6 border-l-4 border-secondary-light/70 text-primary-dark/70 dark:text-primary-light/70 italic;
+
+    p {
+      @apply m-0
+    }
+  }
+
   code {
     @apply inline-block bg-neutral-100 dark:text-primary-dark px-1 rounded m-0;
   }
