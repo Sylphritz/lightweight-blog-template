@@ -33,4 +33,9 @@ export default defineNuxtConfig({
     classSuffix: '',
     storageKey: 'userColorMode',
   },
+  runtimeConfig: {
+    public: {
+      siteName: process.env.SITE_NAME || 'Blazing Fast Static Blog Template',
+    },
+  },
 })
